@@ -8,13 +8,13 @@ import './index.css'
 
 
 createRoot(document.getElementById('root')).render(
-  // <Provider store={store}>
-  //   <App />
-  // </Provider>,
-
-  <BrowserRouter>
+  <Provider store={store}>
     <App />
-  </BrowserRouter>,
+  </Provider>,
+
+  // <BrowserRouter>
+  //   <App />
+  // </BrowserRouter>,
 
   // <StrictMode>
   //   <App />
