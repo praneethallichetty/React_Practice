@@ -6,10 +6,12 @@ class Homeclass extends Component {
         return (
             <>
             <p>Good Morning {this.props.fname}</p>
-            <h5>hi</h5>
+            <p>Profession : {this.props.profession}</p>
+            <h5>hi {this.props.fage}</h5>
             </>
         )
     }
 }
 
 export default Homeclass;
+

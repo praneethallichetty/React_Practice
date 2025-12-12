@@ -11,7 +11,8 @@ import UserInfo from "./UserInfo";
 
 export default function App() {
   let name = "Praneeth Allichetty"
-  let age = "21"
+  let age = "25"
+  let profession = "Fresher, Actively looking for job opportunities"
   return (
     <>
       <h1>Welcome to learning React.js</h1>
@@ -22,8 +23,8 @@ export default function App() {
       <About />
       <Contact />
       <Button />
-      <Homeclass fname = {name}/>
-      <Greetings fname = "Praneeth" age = {age}/>
+      <Homeclass fname = {name} fage = {age} profession = {profession}/>
+      <Greetings fname = "Bunny" age = {age}/>
       <Counter />
 
 

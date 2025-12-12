@@ -1,4 +1,4 @@
-function Contact() {
+export default function Contact() {
     return (
         <>
             <dl>
@@ -19,5 +19,3 @@ function Contact() {
         </>
     )
 }
-
-export default Contact;

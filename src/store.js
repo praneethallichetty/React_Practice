@@ -1,12 +1,11 @@
-import { act } from 'react';
 import {createStore} from 'redux';
-
 
 //1) Initial State
 const initialState = {
     user : {
         username: "Praneeth Allichetty",
         balance: 70000,
+
     }
 }
 
@@ -29,8 +28,8 @@ function reducer(state = initialState, action) {
         case "addMoney":
             return {
                 user : {
-                    username: state.user.username,
-                    balance: state.user.balance + action.payload
+                 username: state.user.username,
+                  balance: state.user.balance + action.payload
                 },
             };
         
